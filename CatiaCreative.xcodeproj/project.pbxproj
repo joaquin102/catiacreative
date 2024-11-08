@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892F2FBF2CD04F6200180DD0 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 892F2FBE2CD04F6200180DD0 /* SpotifyiOS */; };
+		89512AE12CB8A98200D4DCAB /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89512AE02CB8A98200D4DCAB /* ParseSwift */; };
+		895276A22CCF513F00B38A63 /* LoaderUI in Frameworks */ = {isa = PBXBuildFile; productRef = 895276A12CCF513F00B38A63 /* LoaderUI */; };
+		89A2818D2CCC46F70094CE2C /* MarqueeText in Frameworks */ = {isa = PBXBuildFile; productRef = 89A2818C2CCC46F70094CE2C /* MarqueeText */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89512AC32CB8A94F00D4DCAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89512AAA2CB8A94E00D4DCAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89512AB12CB8A94E00D4DCAB;
+			remoteInfo = CatiaCreative;
+		};
+		89512ACD2CB8A94F00D4DCAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89512AAA2CB8A94E00D4DCAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89512AB12CB8A94E00D4DCAB;
+			remoteInfo = CatiaCreative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89512AB22CB8A94E00D4DCAB /* CatiaCreative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatiaCreative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89512AC22CB8A94F00D4DCAB /* CatiaCreativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatiaCreativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89512ACC2CB8A94F00D4DCAB /* CatiaCreativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatiaCreativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		89E7117A2CB9E47300067399 /* Exceptions for "CatiaCreative" folder in "CatiaCreative" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 89512AB12CB8A94E00D4DCAB /* CatiaCreative */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		89512AB42CB8A94E00D4DCAB /* CatiaCreative */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				89E7117A2CB9E47300067399 /* Exceptions for "CatiaCreative" folder in "CatiaCreative" target */,
+			);
+			path = CatiaCreative;
+			sourceTree = "<group>";
+		};
+		89512AC52CB8A94F00D4DCAB /* CatiaCreativeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatiaCreativeTests;
+			sourceTree = "<group>";
+		};
+		89512ACF2CB8A94F00D4DCAB /* CatiaCreativeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatiaCreativeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89512AAF2CB8A94E00D4DCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A2818D2CCC46F70094CE2C /* MarqueeText in Frameworks */,
+				895276A22CCF513F00B38A63 /* LoaderUI in Frameworks */,
+				89512AE12CB8A98200D4DCAB /* ParseSwift in Frameworks */,
+				892F2FBF2CD04F6200180DD0 /* SpotifyiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512ABF2CB8A94F00D4DCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512AC92CB8A94F00D4DCAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89512AA92CB8A94E00D4DCAB = {
+			isa = PBXGroup;
+			children = (
+				89512AB42CB8A94E00D4DCAB /* CatiaCreative */,
+				89512AC52CB8A94F00D4DCAB /* CatiaCreativeTests */,
+				89512ACF2CB8A94F00D4DCAB /* CatiaCreativeUITests */,
+				89512AB32CB8A94E00D4DCAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89512AB32CB8A94E00D4DCAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89512AB22CB8A94E00D4DCAB /* CatiaCreative.app */,
+				89512AC22CB8A94F00D4DCAB /* CatiaCreativeTests.xctest */,
+				89512ACC2CB8A94F00D4DCAB /* CatiaCreativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89512AB12CB8A94E00D4DCAB /* CatiaCreative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89512AD62CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreative" */;
+			buildPhases = (
+				89512AAE2CB8A94E00D4DCAB /* Sources */,
+				89512AAF2CB8A94E00D4DCAB /* Frameworks */,
+				89512AB02CB8A94E00D4DCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				89512AB42CB8A94E00D4DCAB /* CatiaCreative */,
+			);
+			name = CatiaCreative;
+			packageProductDependencies = (
+				89512AE02CB8A98200D4DCAB /* ParseSwift */,
+				89A2818C2CCC46F70094CE2C /* MarqueeText */,
+				895276A12CCF513F00B38A63 /* LoaderUI */,
+				892F2FBE2CD04F6200180DD0 /* SpotifyiOS */,
+			);
+			productName = CatiaCreative;
+			productReference = 89512AB22CB8A94E00D4DCAB /* CatiaCreative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89512AC12CB8A94F00D4DCAB /* CatiaCreativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89512AD92CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreativeTests" */;
+			buildPhases = (
+				89512ABE2CB8A94F00D4DCAB /* Sources */,
+				89512ABF2CB8A94F00D4DCAB /* Frameworks */,
+				89512AC02CB8A94F00D4DCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89512AC42CB8A94F00D4DCAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89512AC52CB8A94F00D4DCAB /* CatiaCreativeTests */,
+			);
+			name = CatiaCreativeTests;
+			packageProductDependencies = (
+			);
+			productName = CatiaCreativeTests;
+			productReference = 89512AC22CB8A94F00D4DCAB /* CatiaCreativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89512ACB2CB8A94F00D4DCAB /* CatiaCreativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89512ADC2CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreativeUITests" */;
+			buildPhases = (
+				89512AC82CB8A94F00D4DCAB /* Sources */,
+				89512AC92CB8A94F00D4DCAB /* Frameworks */,
+				89512ACA2CB8A94F00D4DCAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89512ACE2CB8A94F00D4DCAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89512ACF2CB8A94F00D4DCAB /* CatiaCreativeUITests */,
+			);
+			name = CatiaCreativeUITests;
+			packageProductDependencies = (
+			);
+			productName = CatiaCreativeUITests;
+			productReference = 89512ACC2CB8A94F00D4DCAB /* CatiaCreativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89512AAA2CB8A94E00D4DCAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					89512AB12CB8A94E00D4DCAB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					89512AC12CB8A94F00D4DCAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 89512AB12CB8A94E00D4DCAB;
+					};
+					89512ACB2CB8A94F00D4DCAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 89512AB12CB8A94E00D4DCAB;
+					};
+				};
+			};
+			buildConfigurationList = 89512AAD2CB8A94E00D4DCAB /* Build configuration list for PBXProject "CatiaCreative" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89512AA92CB8A94E00D4DCAB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				89512ADF2CB8A98200D4DCAB /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				89A2818B2CCC46F70094CE2C /* XCRemoteSwiftPackageReference "MarqueeText" */,
+				895276A02CCF513F00B38A63 /* XCRemoteSwiftPackageReference "LoaderUI" */,
+				892F2FBD2CD04F6200180DD0 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89512AB32CB8A94E00D4DCAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89512AB12CB8A94E00D4DCAB /* CatiaCreative */,
+				89512AC12CB8A94F00D4DCAB /* CatiaCreativeTests */,
+				89512ACB2CB8A94F00D4DCAB /* CatiaCreativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89512AB02CB8A94E00D4DCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512AC02CB8A94F00D4DCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512ACA2CB8A94F00D4DCAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89512AAE2CB8A94E00D4DCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512ABE2CB8A94F00D4DCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89512AC82CB8A94F00D4DCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89512AC42CB8A94F00D4DCAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89512AB12CB8A94E00D4DCAB /* CatiaCreative */;
+			targetProxy = 89512AC32CB8A94F00D4DCAB /* PBXContainerItemProxy */;
+		};
+		89512ACE2CB8A94F00D4DCAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89512AB12CB8A94E00D4DCAB /* CatiaCreative */;
+			targetProxy = 89512ACD2CB8A94F00D4DCAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89512AD42CB8A94F00D4DCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89512AD52CB8A94F00D4DCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89512AD72CB8A94F00D4DCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CatiaCreative/CatiaCreative.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatiaCreative/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatiaCreative/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan tags for specific purposes.";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need to access your music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89512AD82CB8A94F00D4DCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CatiaCreative/CatiaCreative.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CatiaCreative/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatiaCreative/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan tags for specific purposes.";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need to access your music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89512ADA2CB8A94F00D4DCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatiaCreative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatiaCreative";
+			};
+			name = Debug;
+		};
+		89512ADB2CB8A94F00D4DCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatiaCreative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CatiaCreative";
+			};
+			name = Release;
+		};
+		89512ADD2CB8A94F00D4DCAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatiaCreative;
+			};
+			name = Debug;
+		};
+		89512ADE2CB8A94F00D4DCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R349H83HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CatiaCreativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatiaCreative;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89512AAD2CB8A94E00D4DCAB /* Build configuration list for PBXProject "CatiaCreative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89512AD42CB8A94F00D4DCAB /* Debug */,
+				89512AD52CB8A94F00D4DCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89512AD62CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89512AD72CB8A94F00D4DCAB /* Debug */,
+				89512AD82CB8A94F00D4DCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89512AD92CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89512ADA2CB8A94F00D4DCAB /* Debug */,
+				89512ADB2CB8A94F00D4DCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89512ADC2CB8A94F00D4DCAB /* Build configuration list for PBXNativeTarget "CatiaCreativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89512ADD2CB8A94F00D4DCAB /* Debug */,
+				89512ADE2CB8A94F00D4DCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		892F2FBD2CD04F6200180DD0 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		89512ADF2CB8A98200D4DCAB /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+		895276A02CCF513F00B38A63 /* XCRemoteSwiftPackageReference "LoaderUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/LoaderUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		89A2818B2CCC46F70094CE2C /* XCRemoteSwiftPackageReference "MarqueeText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joekndy/MarqueeText.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		892F2FBE2CD04F6200180DD0 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 892F2FBD2CD04F6200180DD0 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+		89512AE02CB8A98200D4DCAB /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89512ADF2CB8A98200D4DCAB /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		895276A12CCF513F00B38A63 /* LoaderUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 895276A02CCF513F00B38A63 /* XCRemoteSwiftPackageReference "LoaderUI" */;
+			productName = LoaderUI;
+		};
+		89A2818C2CCC46F70094CE2C /* MarqueeText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89A2818B2CCC46F70094CE2C /* XCRemoteSwiftPackageReference "MarqueeText" */;
+			productName = MarqueeText;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89512AAA2CB8A94E00D4DCAB /* Project object */;
+}
