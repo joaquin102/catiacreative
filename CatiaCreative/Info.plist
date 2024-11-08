@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LillyMae-Regular.otf</string>
+		<string>Gilroy-Black.ttf</string>
+		<string>Gilroy-BlackItalic.ttf</string>
+		<string>Gilroy-Bold.ttf</string>
+		<string>Gilroy-BoldItalic.ttf</string>
+		<string>Gilroy-ExtraBold.ttf</string>
+		<string>Gilroy-ExtraBoldItalic.ttf</string>
+		<string>Gilroy-Heavy.ttf</string>
+		<string>Gilroy-HeavyItalic.ttf</string>
+		<string>Gilroy-Light.ttf</string>
+		<string>Gilroy-LightItalic.ttf</string>
+		<string>Gilroy-Medium.ttf</string>
+		<string>Gilroy-MediumItalic.ttf</string>
+		<string>Gilroy-Regular.ttf</string>
+		<string>Gilroy-RegularItalic.ttf</string>
+		<string>Gilroy-SemiBold.ttf</string>
+		<string>Gilroy-SemiBoldItalic.ttf</string>
+		<string>Gilroy-Thin.ttf</string>
+		<string>Gilroy-ThinItalicttf</string>
+		<string>Gilroy-UltraLight.ttf</string>
+		<string>Gilroy-UltraLightItalic.ttf</string>
+		<string>Breathing.ttf</string>
+	</array>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>We need to access your music</string>
+	<key>NFCReaderUsageDescription</key>
+	<string>This app uses NFC to scan tags for specific purposes.</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>spotify</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>com.spotify.iOS-SDK-Quick-Start</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>spotify-ios-quick-start</string>
+        </array>
+      </dict>
+    </array>
+</dict>
+</plist>
